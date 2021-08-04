@@ -1,0 +1,64 @@
+doctype html
+html 
+  head 
+    title Shri Dance Academy
+
+    style 
+      include ../static/style.css 
+  body
+    nav#navbar 
+      ul 
+        div#logo
+            img(src="/static/logo2.png") 
+            h4 SDA
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class Info]
+        li #[a(href="/") Contact Us]
+    section#intro
+     div.sec Welcom To Shri Dance Academy 
+     div.first Go With The Flow   
+    section#mission 
+      h3 Our Mission 
+      div.home
+       div.card1
+        h4  Dance Performance
+        div.box 
+          div.img
+            img(src="/static/pin3.png")
+          div.content 
+             p1 “A beautiful performance, very emotional and moving.”         
+       div.card2
+        h4 Dance the way You like
+        div.box 
+           div.img2
+            img(src="/static/pin2.png")
+           div.content 
+             p Dance is the way we express ourselves when words are insufficient.   
+       div.card3
+        h4 Experts Teaching 
+        div.box 
+          div.img
+            img(src="/static/pin4.png")
+          div.content 
+             p1 Dance instructors teach a variety of dance styles and techniques to students from beginner to advanced level. 
+             
+    
+    section#sponsor 
+     h3 Our Sponsors 
+     div#home 
+      div#client 
+       div.client-items
+        img(src="/static/sp1.png")
+       div.client-items
+        img(src="/static/sp2.jpg")
+       div.client-items
+        img(src="/static/sp3.png")  
+       div.client-items
+        img(src="/static/logo3.jpg")
+  footer#footer 
+     | Copyright © 2021 ShriDanceAcademy.com | All rights reserved
+     
+  script  
+   include ../static/index.js      
